@@ -108,9 +108,6 @@ iframe {
     text-indent: 0;
 }
 
-p.centrado {
-    text-align: center;
-}
 #section4 {
     margin: 2rem auto;
     padding: 1rem;
@@ -132,7 +129,6 @@ p.centrado {
     text-indent: 0;
 }
 
-
 @media (max-width: 768px) {
     h1 {
         font-size: 36px;
@@ -152,7 +148,7 @@ p.centrado {
     #mandamientos {
         width: 90%;
         padding: 20px;
-        margin: 0 auto; /* Centrando el contenido */
+        margin: 0 auto;
     }
 
     img {
@@ -168,7 +164,7 @@ p.centrado {
     }
 
     #section3 {
-        margin: 2rem; 
+        margin: 1rem; /* Ajustar margen para dispositivos móviles */
         padding: 1rem;
         width: 100%; 
     }
@@ -176,11 +172,14 @@ p.centrado {
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 28px; 
+        font-size: 28px;
     }
 
     #contenedor {
-        gap: 0; 
+        gap: 0;
+    }
+
+    #section3 {
+        margin: 0.5rem; /* Ajustar margen para pantallas muy pequeñas */
     }
 }
-
